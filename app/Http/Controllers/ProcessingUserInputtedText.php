@@ -8,14 +8,14 @@ use App\Models\AllWordsFromTable;
 
 
 class ProcessingUserInputtedText extends Controller {
-
-    public function sendDataToView() {
+    /*sendDataToView() gives an access to the word column in words table from the appropriate model method*/
+    public function gettingDataFromModel() {
 
         $allWordsFromTable = AllWordsFromTable::gettingAllWordsFromTable();
 
         return $allWordsFromTable;
     }
-
+    /*checkingInputtedWords() takes user's text via AJAX and starts comparing each word with table's words*/
     public function checkingInputtedWords(Request $request) {
 
         $request->validate([
@@ -26,22 +26,27 @@ class ProcessingUserInputtedText extends Controller {
 
         $receivingUserTypedText = $request->input("message");
 
-        $typedText = mb_convert_case(trim($receivingUserTypedText), MB_CASE_LOWER, "UTF-8");
+        /*Taking user's text trimming and turning to lowercase, ass all the words in the table are lowercase*/
+        $userTypedText = mb_convert_case(trim($receivingUserTypedText), MB_CASE_LOWER, "UTF-8");
 
-        $turningUserTextToArray = explode(" ", $receivingUserTypedText);
+        /*Making an array with user's text's words*/
+        $turningUserTextToArray = explode(" ", $userTypedText);
 
+        /*This is what will be returned to the text box*/
         $whatUserGets = '';
 
-        $allWordsFromTable = $this->sendDataToView();
+        $allWordsFromTable = $this->gettingDataFromModel();
 
         $wordsFromTableAsArray = [];
 
-        foreach ( $allWordsFromTable as $word){
+        /*adding table's words from its original object as an array $wordsFromTableAsArray elements*/
+        foreach ($allWordsFromTable as $word){
 
             $wordsFromTableAsArray[] = $word->word;
 
         }
 
+        /*checking if the user's typed text's words are in our words' table or no*/
         for($i = 0;$i<count($turningUserTextToArray);$i++){
 
             if(!is_numeric($turningUserTextToArray[$i])){

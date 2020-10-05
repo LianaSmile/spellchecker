@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7cd7ed5-22b9-4f9a-ae23-651d2f2f6ce8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProcessingUserInputtedText.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/AllWordsFromTable.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProcessingUserInputtedText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudViewController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/stud_view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/userInputsTheText.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -204,7 +206,7 @@
       <workItem from="1601876444476" duration="280000" />
       <workItem from="1601876764290" duration="592000" />
       <workItem from="1601882515728" duration="981000" />
-      <workItem from="1601910216321" duration="8046000" />
+      <workItem from="1601910216321" duration="9887000" />
     </task>
     <servers />
   </component>
