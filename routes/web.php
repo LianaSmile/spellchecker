@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\StudViewController;
+use App\Http\Controllers\ProcessingUserInputtedText;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +15,10 @@ use App\Http\Controllers\StudViewController;
 */
 
 Route::get('/', function () {
-    return view('stud_view');
+    return view('userInputsTheText');
 });
 
-Route::get('words', [StudViewController::class,'index']);
-Route::post('compare', [StudViewController::class, 'contactUs'])->name('compare');
+Route::post('compare', [ProcessingUserInputtedText::class, 'checkingInputtedWords'])->name('compare');
 
 
 

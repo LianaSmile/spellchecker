@@ -18,48 +18,7 @@
         </div>
     </div>
 </div>
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .main{
-        margin: 80px auto;
-        text-align: center;
-    }
-    .text{
-        width:800px;
-        margin:0 auto;
-    }
-    .contact100-form-btn{
-        font-size: 15px;
-        padding: 10px;
-        background-color: #1a202c;
-        color: #a0aec0;
-    }
-    body{
-        background-color: #c3d4c6;
-        color: #a0aec0;
-    }
 
-    .title{
-        font-size: 25px;
-        width: auto;
-        height: auto;
-        margin-bottom: 20px;
-        color: #1a202c;
-    }
-
-    .wrong {
-        display: inline-block;
-        position: relative;
-        text-decoration-color: red;
-        text-decoration-line: underline;
-        text-decoration-style: wavy;
-    }
-
-</style>
 @endsection
 
 

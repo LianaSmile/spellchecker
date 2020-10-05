@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7cd7ed5-22b9-4f9a-ae23-651d2f2f6ce8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StudViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProcessingUserInputtedText.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/stud_view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/userInputsTheText.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,9 +158,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final/spellchecker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -192,6 +200,11 @@
       <workItem from="1601479706766" duration="1774000" />
       <workItem from="1601566307995" duration="33965000" />
       <workItem from="1601622348284" duration="9560000" />
+      <workItem from="1601638759871" duration="1915000" />
+      <workItem from="1601876444476" duration="280000" />
+      <workItem from="1601876764290" duration="592000" />
+      <workItem from="1601882515728" duration="981000" />
+      <workItem from="1601910216321" duration="8046000" />
     </task>
     <servers />
   </component>
@@ -199,13 +212,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601634656685">
+    <state x="263" y="19" key="#CLI_Interpreters" timestamp="1601914946066">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601634656685" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601622351903">
+    <state x="263" y="19" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1601914946066" />
+    <state x="390" y="0" key="#PHP" timestamp="1601914947153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601622351903" />
+    <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1601914947153" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601911109993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1601911109993" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601911667351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601911667351" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601911514609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601911514609" />
+    <state x="0" y="6" width="916" height="715" key="SettingsEditor" timestamp="1601910741701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="6" width="916" height="715" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601910741701" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601876764783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601876764783" />
+    <state x="0" y="22" key="scopes" timestamp="1601910532919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="22" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1601910532919" />
   </component>
 </project>
